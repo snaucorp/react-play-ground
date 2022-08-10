@@ -3,13 +3,19 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      xs: "375px",
+      xs: "480px",
       sm: "600px",
       md: "768px",
-      lg: "976px",
-      xl: "1280px",
+      lg: "900px",
+      xl: "1024px",
+      xxl: "1280px",
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        defaultColor: "#1A2238",
+      },
+    },
   },
   plugins: [],
 };
