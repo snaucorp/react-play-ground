@@ -72,8 +72,8 @@ const Header = () => {
                 </Link>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <Link to="/contact" onClick={() => setNavbar(!navbar)}>
-                  Contact US
+                <Link to="/privacy" onClick={() => setNavbar(!navbar)}>
+                  Privacy
                 </Link>
               </li>
             </ul>
